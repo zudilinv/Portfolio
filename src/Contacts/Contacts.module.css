@@ -1,0 +1,64 @@
+.contactsBlock {
+    height: 100vh;
+    background-color: palevioletred;
+    display: flex;;
+    align-items: center;
+    justify-content: flex-end;
+}
+.contactsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.contacts {
+    height: 50%;
+    width: 50%;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.title {
+    background-color: gold;
+    margin: 10px;
+}
+.input {
+    margin-top: 10px;
+    width: 70%;
+}
+.btn {
+    height: 7%;
+    width: 40%;
+    max-width: 100px;
+    min-width: 45px;
+    border-radius: 5px;
+    background-color: #6b6868;
+    margin-top: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #868282;
+    color: gainsboro;
+}
+
+@media screen and (max-width: 760px){
+    .contacts {
+        height: 50%;
+        width: 50%;
+        background-color: gainsboro;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 540px){
+    .input {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,33 @@
+.projectBlock {
+    min-height: 100vh;
+    background-color: pink;
+    display: flex;;
+    align-items: center;
+    justify-content: flex-end;
+}
+.projectsContainer {
+    background-color: lightcoral;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title {
+    background-color: gold;
+    margin: 10px;
+}
+.projects {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 760px){
+    .projects {
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

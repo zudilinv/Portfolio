@@ -1,0 +1,42 @@
+.footerBlock {
+    background-color: lightblue;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.title {
+    background-color: gold;
+    margin-bottom: 10px;
+}
+.footer {
+    background-color: gainsboro;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.span {
+    background-color: #797777;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_foot {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 760px){
+    .footer {
+
+    }
+}

@@ -1,0 +1,17 @@
+.main {
+    height: 100vh;
+    background-color: #deaeb8;
+}
+.title {
+
+}
+.text {
+    width: 300px;
+    background-color: gainsboro;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: gainsboro;
+}
