@@ -1,5 +1,4 @@
 .contactsBlock {
-    height: 100vh;
     background-color: palevioletred;
     display: flex;;
     align-items: center;
@@ -10,14 +9,11 @@
     justify-content: flex-start;
 }
 .contacts {
-    height: 50%;
     width: 50%;
     background-color: gainsboro;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
-    flex-wrap: wrap;
 }
 .title {
     background-color: gold;
@@ -34,7 +30,7 @@
     min-width: 45px;
     border-radius: 5px;
     background-color: #6b6868;
-    margin-top: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
     cursor: pointer;
 }
@@ -43,16 +39,9 @@
     color: gainsboro;
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 400px){
     .contacts {
-        height: 50%;
-        width: 50%;
-        background-color: gainsboro;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: start;
-        flex-wrap: wrap;
+        width: 80%;
     }
 }
 @media screen and (max-width: 540px){
